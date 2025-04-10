@@ -1,0 +1,70 @@
+title: LangGraph Cheatsheet
+longtitle: LangGraph Development Cheatsheet
+author: Suman Michael
+email: sumanmichael01@gmail.com
+description: >
+  A comprehensive cheatsheet and practical guide for building applications with LangGraph.
+
+version: 1.0
+gitbook_version: 3.2.3
+
+github_username: sumanmichael
+
+url: "" # Replace with your GitHub Pages URL
+baseurl: "" # Adjust baseurl if your repo name is different
+rss: RSS # Keep RSS as is
+
+remote_theme: sighingnow/jekyll-gitbook
+
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 3
+
+favicon_path: /assets/gitbook/images/favicon.ico # Keep favicon path
+
+markdown: kramdown
+kramdown:
+  auto_ids: true
+  input: GFM
+  math_engine: mathjax
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  toc_levels: 1..6
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    guess_lang: true
+
+syntax_highlighter_style: github
+
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+
+permalink: /:collection/:path/
+
+# Disqus comments - Optional, uncomment and add your handler if you want Disqus
+# disqushandler:            your_disqus_shortname
+
+exclude:
+  - _drafts
+
+collections:
+  cheatsheet:
+    output: true
+    permalink: /:collection/:path/
+  pages:
+    output: true
+    permalink: /:collection/:path/
+
+ordered_collections:
+  - cheatsheet
+  - pages
+
+page_width: 800px
+
+destination: ./_site
+incremental: false
+regenerate: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+  - jemoji
