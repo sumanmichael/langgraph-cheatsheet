@@ -45,3 +45,5 @@ Use the navigation sidebar on the left to explore the cheatsheet chapters in det
 This cheatsheet is a community effort! If you find errors, have suggestions for improvement, or want to contribute new content, please submit a pull request on the GitHub repository [https://github.com/sumanmichael/langgraph-cheatsheet](https://github.com/sumanmichael/langgraph-cheatsheet). Let's make this the best LangGraph resource together.
 
 Happy building with LangGraph! 🚀
+
+- Suman Michael
