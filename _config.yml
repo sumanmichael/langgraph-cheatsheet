@@ -10,8 +10,7 @@ gitbook_version: 3.2.3
 
 github_username: sumanmichael
 
-url: "/langgraph-cheatsheet" # Replace with your GitHub Pages URL
-baseurl: "https://sumanmichael.github.io" # Adjust baseurl if your repo name is different
+baseurl: "https://sumanmichael.github.io/langgraph-cheatsheet"
 rss: RSS # Keep RSS as is
 
 remote_theme: sighingnow/jekyll-gitbook
